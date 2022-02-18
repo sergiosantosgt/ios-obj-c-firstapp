@@ -6,8 +6,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    SystemSoundID systemSoundID;
+}
+
+
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
+- (IBAction)cat:(id)sender;
 
 
 @end
