@@ -16,6 +16,10 @@
 		04CDAF9127BF41B00024CA04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDAF9027BF41B00024CA04 /* main.m */; };
 		04CDAF9B27BF41B00024CA04 /* MyFirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDAF9A27BF41B00024CA04 /* MyFirstAppTests.m */; };
 		04CDAFA627BF41B00024CA04 /* MyFirstAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDAFA527BF41B00024CA04 /* MyFirstAppUITests.m */; };
+		04CDAFB727BF44370024CA04 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04CDAFB627BF44370024CA04 /* Cat.wav */; };
+		04CDAFB827BF44370024CA04 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04CDAFB627BF44370024CA04 /* Cat.wav */; };
+		04CDAFB927BF44370024CA04 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04CDAFB627BF44370024CA04 /* Cat.wav */; };
+		04CDAFC227BF4FE10024CA04 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CDAFC127BF4FE00024CA04 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,8 @@
 		04CDAFA127BF41B00024CA04 /* MyFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CDAFA527BF41B00024CA04 /* MyFirstAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstAppUITests.m; sourceTree = "<group>"; };
 		04CDAFA727BF41B00024CA04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CDAFB627BF44370024CA04 /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat.wav; sourceTree = "<group>"; };
+		04CDAFC127BF4FE00024CA04 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CDAFC227BF4FE10024CA04 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +95,7 @@
 				04CDAF9927BF41B00024CA04 /* MyFirstAppTests */,
 				04CDAFA427BF41B00024CA04 /* MyFirstAppUITests */,
 				04CDAF7C27BF41AC0024CA04 /* Products */,
+				04CDAFC027BF4FE00024CA04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +123,7 @@
 				04CDAF8C27BF41B00024CA04 /* LaunchScreen.storyboard */,
 				04CDAF8F27BF41B00024CA04 /* Info.plist */,
 				04CDAF9027BF41B00024CA04 /* main.m */,
+				04CDAFB627BF44370024CA04 /* Cat.wav */,
 			);
 			path = MyFirstApp;
 			sourceTree = "<group>";
@@ -135,6 +144,14 @@
 				04CDAFA727BF41B00024CA04 /* Info.plist */,
 			);
 			path = MyFirstAppUITests;
+			sourceTree = "<group>";
+		};
+		04CDAFC027BF4FE00024CA04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04CDAFC127BF4FE00024CA04 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +259,7 @@
 				04CDAF8E27BF41B00024CA04 /* LaunchScreen.storyboard in Resources */,
 				04CDAF8B27BF41B00024CA04 /* Assets.xcassets in Resources */,
 				04CDAF8927BF41AC0024CA04 /* Main.storyboard in Resources */,
+				04CDAFB727BF44370024CA04 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CDAFB827BF44370024CA04 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CDAFB927BF44370024CA04 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
